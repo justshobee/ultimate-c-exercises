@@ -1,0 +1,16 @@
+Exercise 3: Arithmetic Operations
+
+Practice Problem: Write a C program that calculates and prints the sum, difference, product, and quotient (division) of two integers.
+
+Given:
+
+int a, b;
+a = 10;
+b = 20;
+
+Expected Output:
+
+Sum: 20 + 10 = 30
+Difference: 20 - 10 = 10
+Product: 20 * 10 = 200
+Quotient: 20 / 10 = 2.00
