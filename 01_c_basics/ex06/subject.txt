@@ -1,0 +1,19 @@
+Exercise 6: Swapping Numbers
+
+Practice Problem: Write a C program to read two integer values, A and B,
+and then swap their contents so that A holds the original value of B,
+and B holds the original value of A. Use a third, temporary variable.
+
+Given:
+
+int A, B;
+A = 10;
+B = 20;
+
+Expected Output:
+
+--- Before Swap ---
+A = 10, B = 20
+
+--- After Swap ---
+A = 20, B = 10
