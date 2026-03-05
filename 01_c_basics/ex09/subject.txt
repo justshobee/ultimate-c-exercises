@@ -1,0 +1,12 @@
+Exercise 9: Check Even or Odd
+
+Practice Problem: Write a C program to determines whether given integer is even or odd.
+
+Given:
+
+int num;
+num = 12;
+
+Expected Output:
+
+12 is an EVEN number.
