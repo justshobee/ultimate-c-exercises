@@ -1,0 +1,17 @@
+Exercise 17: Multiplication Table
+
+Practice Problem: Write a C program to print the multiplication table of a given integer N from 1 × N up to 10 × N.
+
+Given:
+
+int N;
+N = 2;
+
+Expected Output:
+
+Multiplication Table for 2:
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+....
+2 x 10 = 20
