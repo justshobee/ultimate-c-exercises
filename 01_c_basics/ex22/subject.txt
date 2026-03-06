@@ -1,0 +1,11 @@
+Exercise 22: Check Palindrome
+
+Practice Problem: Write a C program to check if a given integer is a palindrome (reads the same forwards and backward, e.g., 121,3553).
+
+Given:
+
+int num = 121
+
+Expected Output:
+
+121 is a PALINDROME
