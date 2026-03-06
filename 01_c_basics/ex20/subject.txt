@@ -1,0 +1,11 @@
+Exercise 20: Count Digits
+
+Practice Problem: Write a C program to counts the total number of digits in a given number.
+
+Given:
+
+long long num = 3456;
+
+Expected Output:
+
+The number 3456 has 4 digits.
