@@ -5,31 +5,38 @@
 /*                                                            __) |   |_ \    */
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
-/*   Created: 2026/03/06 17:29:51 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/06 17:31:55 by shobeedev            tfaaty fi l3oolaa   */
+/*   Created: 2026/03/06 17:36:09 by shobeedev               shobee4ever      */
+/*   Updated: 2026/03/06 17:52:33 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int main()
-{
-	int row,col;
-	row = 3;
-	col = 3;
 
-	int i = 1;
-	while(i <= row)
+void fibseries(int nbr)
+{
+	int t1 = 0;
+	int t2 = 1;
+	int nextTerm = 0;
+	int i = 3;
+	printf("Fibonacci Series up to %d terms:\n%d %d ", nbr, t1, t2);
+	while(i <= nbr)
 	{
-		int j = 1;
-		while(j <= col)
-		{
-			printf("*");
-			j++;
-		}
-		printf("\n");
+		nextTerm = t1 + t2;
+		printf("%d ",nextTerm);
+		t1 = t2;
+		t2 = nextTerm;
 		i++;
 	}
+}
+
+int main()
+{
+	int nbr;
+	printf("Enter a number : ");
+	scanf("%d",&nbr);
+
+	fibseries(nbr);
 
 	return 0;
 }

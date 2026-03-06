@@ -1,13 +1,12 @@
-Exercise 25: Solid Rectangle Pattern
+Exercise 24: Fibonacci Series
 
-Practice Problem: Write a C program that uses nested for-loops to print a solid rectangle pattern of asterisks (*) with 3 rows and 3 columns.
+Practice Problem: Write a C program to print the first N terms of the Fibonacci series. (The series starts with 0, 1 and each subsequent number is the sum of the two preceding ones: 0,1,1,2,3,5,8,…).
 
 Given:
 
-int rows=3, cols=3;
+int N = 8;
 
 Expected Output:
 
-***
-***
-***
+Fibonacci Series up to 8 terms:
+0, 1, 1, 2, 3, 5, 8, 13,
