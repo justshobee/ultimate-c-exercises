@@ -1,0 +1,12 @@
+Exercise 31: Function to Find Maximum in Array
+
+Practice Problem: Write a C function named find_max that takes an integer array and its size as parameters, and returns the largest element in the array.
+
+Given:
+
+int data[] = {8, 15, 2, 70, 9, 33};
+
+Expected Output:
+
+The array elements are: {8, 15, 2, 70, 9, 33}
+The largest element found by the function is: 70
