@@ -1,0 +1,12 @@
+Exercise 27: Sum of Array Elements
+
+Practice Problem: Write a C program to calculate and print the sum of all elements in a pre-initialized integer array of size 5.
+
+Given:
+
+int arr[5] = {10, 5, 20, 15, 30};
+
+Expected Output:
+
+The elements are: 10, 5, 20, 15, 30
+The sum of all array elements is: 80
