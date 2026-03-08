@@ -1,0 +1,12 @@
+Exercise 36: String Reversal
+
+Practice Problem: Write a C program to reverse a given string.
+
+Given:
+
+char str[] = "Elon";
+
+Expected Output:
+
+Enter a string to reverse: Elon
+Reversed string: nolE
