@@ -1,0 +1,12 @@
+Exercise 44: Function with Pointer (Pass by Reference)
+
+Practice Problem: Write a function named square_value that takes a pointer to an integer as its only argument. The function should calculate the square of the integer the pointer points to and store the result back into the same memory location.
+
+Given:
+
+int x = 5;
+
+Expected Output:
+
+Original value of x: 5
+Value of x after function call: 25
