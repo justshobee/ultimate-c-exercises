@@ -1,0 +1,3 @@
+Exercise 17: Variable Scope
+
+Practice Problem: Write a program with at least two blocks ({}) to demonstrate the concept of variable scope. Declare a variable in the outer block and another with the same name in the inner block. Print both to show their different scopes.
