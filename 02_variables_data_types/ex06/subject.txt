@@ -1,0 +1,13 @@
+Exercise 6: Variable Swapping (Third Variable)
+
+Practice Problem: Swap the values of two integer variables using a third temporary variable. Print the values before and after the swap
+
+Given:
+
+int a = 5;
+int b = 10;
+
+Expected Output:
+
+Before swap: a = 5, b = 10
+After swap: a = 10, b = 5
