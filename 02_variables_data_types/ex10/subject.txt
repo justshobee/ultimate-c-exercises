@@ -1,0 +1,8 @@
+Exercise 10: Average of Three Numbers
+
+Practice Problem: Take three integer inputs from the user, calculate their average as a float, and print the result.
+
+Expected Output:
+
+Enter three integers: 10 20 30
+The average is: 20.00
