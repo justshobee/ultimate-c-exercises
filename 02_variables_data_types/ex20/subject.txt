@@ -1,0 +1,21 @@
+Exercise 20: Formatted Output
+
+Practice Problem: Calculate total price and Print below variables in a single formatted sentence with different format specifiers.
+
+Given:
+
+#include <stdio.h>
+
+int main() {
+    int quantity = 3;
+    float unit_price = 15.75f;
+    char code = 'A';
+
+    //print here
+
+    return 0;
+}
+
+Expected Output:
+
+Item Code: A, Quantity: 3, Total Price: $47.25
