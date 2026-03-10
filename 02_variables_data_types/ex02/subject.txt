@@ -1,0 +1,3 @@
+Exercise 2: Floating-Point Arithmetic
+
+Practice Problem: Write a C program that declares two float variables and computes their sum, difference, and product. Print the results with two decimal places.
