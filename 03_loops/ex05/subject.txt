@@ -1,0 +1,12 @@
+Exercise 5: Reverse Count
+
+Practice Problem: Write a C program that uses a while loop to print numbers starting from 10 down to 1.
+
+Expected Output:
+
+10
+9
+8
+7
+...
+1
