@@ -1,0 +1,12 @@
+Exercise 13: Reverse a Number
+
+Practice Problem: Write a C program to reverse a given number (e.g., 1234 becomes 4321).
+
+Given:
+
+int num = 1234;
+
+Expected Output:
+
+Original number: 1234
+Reversed number: 4321
