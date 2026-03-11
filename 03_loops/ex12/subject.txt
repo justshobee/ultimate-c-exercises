@@ -1,0 +1,11 @@
+Exercise 12: Count Digits
+
+Practice Problem: Write a C program that uses a while loop to count the number of digits in a given number (e.g., 1234 has 4 digits).
+
+Given:
+
+int num = 12568;
+
+Expected Output:
+
+The number of digits in 12568 is: 5
