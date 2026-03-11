@@ -1,0 +1,7 @@
+Exercise 4: Print odd numbers from 1 to 20
+
+Practice Problem: Write a C program to print odd numbers between 1 and 20 using a do...while loop.
+
+Expected Output:
+
+1 3 5 7 9 11 13 15 17 19
