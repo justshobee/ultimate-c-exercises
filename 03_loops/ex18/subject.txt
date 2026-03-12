@@ -1,0 +1,13 @@
+Exercise 18: Right-Angled Triangle (Numbers)
+
+Practice Problem: Write a C program to print a right-angled triangular pattern where each row prints increasing numbers, up to the row number (e.g., Row 3 prints 1 2 3).
+
+Given:
+
+int rows = 3;
+
+Expected Output:
+
+1
+1 2
+1 2 3
