@@ -1,0 +1,11 @@
+Exercise 16: Power of a Number
+
+Practice Problem: Write a C program to calculate x raised to the power y (xy) where x (base) and y (exponent) are integers input by the user. Do this without using the built-in pow() function, relying only on a loop. Assume y is non-negative.
+
+Given:
+
+int base = 5, exponent = 3;
+
+Expected Output:
+
+5^3 = 125
