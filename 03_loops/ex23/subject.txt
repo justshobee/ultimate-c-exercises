@@ -1,0 +1,12 @@
+Exercise 23: Print Primes in Range
+
+Practice Problem: Write a C program that uses nested loops to print all the prime numbers within a given range, specified by a start limit and an end limit.
+
+Given:
+
+int start = 10, end = 20;
+
+Expected Output:
+
+Prime numbers between 10 and 20 are:
+11 13 17 19
