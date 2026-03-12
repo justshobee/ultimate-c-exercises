@@ -1,0 +1,14 @@
+Exercise 19: Inverted Right-Angled Triangle (Asterisks)
+
+Practice Problem: Write a C program to print an inverted right-angled triangular pattern of asterisks. Decide the number of rows. (e.g., if N=4: ****,***,**,*).
+
+Given:
+
+int rows = 3;
+
+Expected Output:
+
+number of rows (N): 3
+***
+**
+*
