@@ -1,0 +1,3 @@
+Exercise 1: Simple Function
+
+Practice Problem: Write a function greet() that takes no arguments and returns nothing (void), and simply prints “Hello, C Functions!”.
