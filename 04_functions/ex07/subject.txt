@@ -1,0 +1,11 @@
+Exercise 7: Array as a Parameter
+
+Practice Problem: Create a function find_max(int arr[], int size) that takes an integer array and its size as parameters and returns the largest element found in the array.
+
+Given:
+
+int numbers[] = {45, 12, 88, 5, 92, 33};
+
+Expected Output:
+
+The largest element in the array is: 92
