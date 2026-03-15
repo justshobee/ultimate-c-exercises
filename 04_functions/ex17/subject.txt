@@ -1,0 +1,8 @@
+Exercise 17: Function Pointers
+
+Practice Problem: Define a function pointer that can point to a function taking two integers and returning an integer. Assign it to the multiply function (from Exercise 3) and call the function using the pointer.
+
+Expected Output:
+
+a:10 b:5
+Result of multiplication (via function pointer): 50
