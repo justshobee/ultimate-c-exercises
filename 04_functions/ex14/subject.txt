@@ -1,0 +1,9 @@
+Exercise 14: Simple Recursion (Fibonacci Sequence)
+
+Practice Problem: Implement a recursive function fibonacci(int n) to find the 7-th number in the Fibonacci sequence (0,1,1,2,3,5,8,13…).
+
+Fibonacci sequence: It is a series of numbers where each number is the sum of the two preceding ones, typically starting with 0 and 1. The sequence goes 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on, and is represented by the recursive formula F(n) = F(n-1) + F(n-2), with F(0)=0 and F(1)=1.
+
+Expected Output:
+
+The 7-th Fibonacci number is: 13
