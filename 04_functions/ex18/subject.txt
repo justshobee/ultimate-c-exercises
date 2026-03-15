@@ -1,0 +1,9 @@
+Exercise 18: Function as an Argument (Callback)
+
+Practice Problem: Write a function operate_on_data(int a, int b, int (*op)(int, int)) that takes two integers and a function pointer as arguments. Pass either an add(int, int) or a subtract(int, int) function to it, demonstrating a callback mechanism.
+
+Expected Output:
+
+x:50 y:15
+Operation (Add): 65
+Operation (Subtract): 35
