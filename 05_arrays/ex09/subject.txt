@@ -1,0 +1,12 @@
+Exercise 9: Find Second Largest and Second Smallest Element
+Practice Problem: Write a C program to identify and print the second largest and the second smallest unique elements in a given array.
+
+Given:
+
+int size = 7;
+int arr[7] = {10, 50, 20, 80, 40, 90, 30};
+Expected Output:
+
+Array elements: 10, 50, 20, 80, 40, 90, 30
+Second Largest (Max): 80
+Second Smallest (Min): 20
