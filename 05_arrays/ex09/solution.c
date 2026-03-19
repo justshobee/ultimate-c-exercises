@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/19 21:25:48 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/19 22:27:03 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/19 22:28:36 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,3 +60,20 @@ int	main()
 
 	return 0;
 }
+
+/*
+Initialization: max1 and max2 are initialized to INT_MIN (the smallest possible integer)
+to ensure any array element will be larger. Conversely, min1 and min2 are initialized
+to INT_MAX (the largest possible integer).
+
+Max Logic:
+
+    If arr[i] is greater than max1, it means we found a new largest element.
+		We promote the old max1 to max2, and set arr[i] as the new max1.
+    If arr[i] is not the largest (max1), but it is greater than max2
+		and not equal to max1 (handling duplicates), then it is the new second largest (max2).
+
+Min Logic: The logic for min1 and min2 follows the same structure but with
+reversed comparison operators (<). This single-pass method is more efficient than sorting the entire array first.
+
+*/
