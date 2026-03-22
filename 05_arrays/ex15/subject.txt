@@ -8,3 +8,4 @@ int arrB[] = {40, 50, 60, 70};
 Expected Output:
 
 Merged array C: 10 20 30 40 50 60 70
+

@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/22 07:55:01 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/22 08:07:59 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/22 08:27:45 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ int main()
         printf("%d ",arrC[i]);
         i++;
     }
+
 
     return 0;
 }
