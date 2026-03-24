@@ -1,0 +1,15 @@
+Exercise 23: Count Frequency Of Each Element
+
+Practice Problem: Write a C program to determine the frequency (number of occurrences) of every unique element within a given array.
+
+Given:
+
+int arr[] = {2, 5, 2, 8, 5, 1};
+
+Expected Output:
+
+Frequencies:
+Element 1: 1 times
+Element 2: 2 times
+Element 5: 2 times
+Element 8: 1 times
