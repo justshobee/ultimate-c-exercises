@@ -1,0 +1,12 @@
+Exercise 22: Remove Duplicate Elements
+
+Practice Problem: Write a C program that removes duplicate elements from an array, modifying the array in-place to contain only unique elements, and returns the new size of the modified array.
+
+Given:
+
+int arr[] = {10, 20, 20, 30, 10, 40, 50, 50, 40};
+
+Expected Output:
+
+Original array (size 9): 10 20 20 30 10 40 50 50 40
+Array after removing duplicates (new size 5): 10 20 30 40 50
