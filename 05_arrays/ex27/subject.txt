@@ -1,0 +1,12 @@
+Exercise 27: Rotate Array Left by One Position
+
+Practice Problem: Write a C program to perform a left rotation of an array by one position. In a left rotation, every element is shifted one index to the left, and the first element moves to the end of the array.
+
+Given:
+
+int arr[] = {1, 2, 3, 4, 5};
+
+Expected Output:
+
+Original array: 1 2 3 4 5
+Array after left rotation by 1: 2 3 4 5 1
