@@ -1,0 +1,12 @@
+Exercise 28: Rotate Array Right by One Position
+
+Practice Problem: Write a C program to perform a right rotation of an array by one position. In a right rotation, every element is shifted one index to the right, and the last element moves to the beginning of the array.
+
+Given:
+
+int arr[] = {1, 2, 3, 4, 5};
+
+Expected Output:
+
+Original array: 1 2 3 4 5
+Array after right rotation by 1: 5 1 2 3 4
