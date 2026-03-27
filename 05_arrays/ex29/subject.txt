@@ -1,0 +1,12 @@
+Exercise 29: Rotate Array Left by n Positions
+
+Practice Problem: Write a C program to perform a left rotation of an array by an arbitrary number of positions, k.
+
+Given:
+
+int arr[] = {1, 2, 3, 4, 5, 6, 7};
+
+Expected Output:
+
+Original array: 1 2 3 4 5 6 7
+Array after left rotation by 3: 4 5 6 7 1 2 3
