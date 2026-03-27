@@ -1,0 +1,16 @@
+Exercise 25: Two arrays are equal or not
+
+Practice Problem: Write a C program that compares two arrays of integers, A and B, and determines if they are exactly equal (same size and all elements at corresponding indices are identical).
+
+Given:
+
+int arr_a[] = {10, 20, 30, 40};
+int arr_b[] = {10, 20, 30, 40}; // Equal to A
+int arr_c[] = {10, 20, 30, 41}; // Mismatch in last element
+int arr_d[] = {10, 20, 30};     // Different size
+
+Expected Output:
+
+A and B are equal: True
+A and C are equal: False
+A and D are equal: False
