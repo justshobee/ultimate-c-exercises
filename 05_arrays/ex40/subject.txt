@@ -1,0 +1,14 @@
+Exercise 40: Subtract Two Matrices
+
+Practice Problem: Write a C program to read two matrices, Matrix A and Matrix B, of the same dimension, calculate their difference, and store the result in a third matrix, Matrix C (Matrix C = Matrix A – Matrix B).
+
+Given:
+
+int A[2][2] = {{10, 20}, {30, 40}};
+int B[2][2] = {{1, 2}, {3, 4}};
+
+Expected Output:
+
+Matrix A - Matrix B (Matrix C):
+9       18
+27      36
