@@ -1,0 +1,12 @@
+Exercise 31: Remove Duplicate Elements from a Sorted Array
+
+Practice Problem: Write a C program to remove duplicate elements from a given array that is already sorted. The modification should happen in-place (i.e., modify the original array), and the function should return the length of the new array with unique elements.
+
+Given:
+
+int arr[] = {1, 1, 2, 2, 2, 3, 4, 4, 5};
+
+Expected Output:
+
+Original array: 1 1 2 2 2 3 4 4 5
+Array after removing duplicates (new size 5): 1 2 3 4 5
