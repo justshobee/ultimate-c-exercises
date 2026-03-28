@@ -1,0 +1,14 @@
+Exercise 39: Add Two Matrices
+
+Practice Problem: Write a C program to read two matrices, Matrix A and Matrix B, of the same dimension (e.g., 3×3), calculate their sum, and store the result in a third matrix, Matrix C (Matrix C = Matrix A + Matrix B).
+
+Given:
+
+int A[2][2] = {{1, 2}, {3, 4}};
+int B[2][2] = {{5, 6}, {7, 8}};
+
+Expected Output:
+
+Matrix A + Matrix B (Matrix C):
+6       8
+10      12
