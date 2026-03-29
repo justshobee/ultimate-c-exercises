@@ -1,0 +1,12 @@
+Exercise 4: Concatenate Strings
+
+Practice Problem: Join two strings (str1 and str2) together, storing the result in the first string, without using the built-in strcat() function.
+
+Given:
+
+char str1[50] = "Hello "; 
+char str2[] = "World!";
+
+Expected Output:
+
+Concatenated string: Hello World!
