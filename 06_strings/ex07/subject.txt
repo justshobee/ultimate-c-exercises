@@ -1,0 +1,11 @@
+Exercise 7: Convert to Lowercase
+
+Practice Problem: Convert all uppercase characters in a given string to their corresponding lowercase characters. Leave all other characters (lowercase, digits, symbols) unchanged.
+
+Given:
+
+char str[] = "C PrOgRaMmInG Is AwEsOmE";
+
+Expected Output:
+
+Lowercase string: c programming is awesome
