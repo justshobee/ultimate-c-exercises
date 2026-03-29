@@ -1,0 +1,12 @@
+Exercise 2: String Length
+
+Practice Problem: Calculate and print the length of a string without using the built-in strlen() function.
+
+Given:
+
+char str[] = "Hello World!";
+
+Expected Output:
+
+The string is: "Hello World!"
+The length of the string is: 12
