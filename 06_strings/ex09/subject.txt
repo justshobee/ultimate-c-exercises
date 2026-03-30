@@ -1,0 +1,13 @@
+Exercise 9: Vowels and Consonants
+
+Practice Problem: Count the total number of vowels (A, E, I, O, U, and their lowercase counterparts) and consonants in a given string.
+
+Given:
+
+char str[] = "Programming In C is fun.";
+
+Expected Output:
+
+String: Programming In C is fun.
+Total Vowels: 6
+Total Consonants: 13
