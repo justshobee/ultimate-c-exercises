@@ -1,0 +1,9 @@
+Exercise 11: Specific Character Count
+
+Practice Problem: Write a C program to read a string and a single character from the user, and then count and print the total number of times that specific character appears in the string (case-sensitive).
+
+Expected Output:
+
+Enter a string: My name is Jessa
+Enter the character to count: s
+The character 's' appears 3 times in the string.
