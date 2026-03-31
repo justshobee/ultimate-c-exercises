@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/31 16:49:52 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/31 17:14:58 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/31 17:47:17 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,5 @@ int main()
 		read_i++;
 	}
 	str[write_i-1] = '\0';
-	printf("%s",str);
+	printf("Normalized string: \"%s\"\n", str);
 }
