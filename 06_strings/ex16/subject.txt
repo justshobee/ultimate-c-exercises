@@ -1,0 +1,11 @@
+Exercise 16: Non-Repeating Character
+
+Practice Problem: Find and print the first non-repeating character in a given string. If all characters repeat, report that no unique character was found.
+
+Given:
+
+char str[] = "aabbccdeeff";
+
+Expected Output:
+
+First non-repeating character: 'd'
