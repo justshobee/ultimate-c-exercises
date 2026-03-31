@@ -1,0 +1,12 @@
+Exercise 15: Remove Specific Character
+
+Practice Problem: Remove all occurrences of a specific character (e.g., ‘x’) from a string and shift the remaining characters to fill the gap.
+
+Given:
+
+char str[] = "eExxammpelle";
+char char_to_remove = 'e';
+
+Expected Output:
+
+String after removing 'e': Exxammpll
