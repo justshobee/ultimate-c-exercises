@@ -1,0 +1,12 @@
+Exercise 24: Remove Duplicates
+
+Practice Problem: Remove duplicate characters from a string, keeping only the first occurrence of each character. The operation should be performed in place.
+
+Given:
+
+char str[] = "programmingisgreat";
+
+Expected Output:
+
+Original: programmingisgreat
+No duplicates: progaminset
