@@ -1,0 +1,12 @@
+Exercise 26: Sort String
+
+Practice Problem: Sort the characters of a string alphabetically (e.g., “Jessa” becomes “Jaess”).
+
+Given:
+
+char str[] = "Jessa";
+
+Expected Output:
+
+Original: Jessa
+Sorted: Jaess
