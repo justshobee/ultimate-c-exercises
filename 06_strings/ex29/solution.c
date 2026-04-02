@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/02 10:57:49 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/02 11:32:07 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/02 11:36:55 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,12 +50,18 @@ void tt_itoa(int num)
 	
 	int rem = 0;
 	char ch;
-	while(nbr != 0)
+	if(nbr == 0)
 	{
-		rem = nbr % 10;
-		ch = rem + '0';
-		word[i++] = ch;
-		nbr = nbr / 10;
+		word[i++] = '0';
+	}else
+	{
+		while(nbr != 0)
+		{
+			rem = nbr % 10;
+			ch = rem + '0';
+			word[i++] = ch;
+			nbr = nbr / 10;
+		}
 	}
 	word[i] = '\0';
 	reverse_str(word);
