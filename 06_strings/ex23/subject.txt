@@ -1,0 +1,12 @@
+Exercise 23: Reverse Words
+
+Practice Problem: Reverse the order of words in a sentence while keeping the characters within each word in their original order (e.g., “C language programming” becomes “programming language C”).
+
+Given:
+
+char str[] = "C programming is fun";
+
+Expected Output:
+
+Original: C programming is fun
+Reversed words: fun is programming C
