@@ -1,0 +1,16 @@
+Exercise 6: Array Traversal
+
+Practice Problem: Use pointer arithmetic to traverse an integer array and print all its elements.
+
+Given:
+
+int arr[] = {10, 20, 30, 40, 50};
+
+Expected Output:
+
+Array elements using pointer arithmetic:
+Element 0: 10
+Element 1: 20
+Element 2: 30
+Element 3: 40
+Element 4: 50
