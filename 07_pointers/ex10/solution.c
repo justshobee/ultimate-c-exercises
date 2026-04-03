@@ -6,25 +6,24 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/03 12:41:19 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/03 13:06:05 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/03 17:50:09 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-void reverse_arr(int *ptr,int size)
+
+void reverse_arr(int *start,int *end)
 {
-	int tmp ,start = 0;
-	int end = size - 1;
+	//here we compare the addresses
 	while(start < end)
 	{
-		tmp = ptr[start];
-		ptr[start]= ptr[end];
-		ptr[end] = tmp;
+		int tmp = *start;//derefrence
+		*start = *end;
+		*end = tmp;
 		start++;
 		end--;
 	}
 }
-
 void print_arr(int *ptr,int size)
 {
 	int i = 0;
@@ -41,12 +40,13 @@ int main()
 	int numbers[] = {1, 2, 3, 4, 5, 6};
 	int size = sizeof(numbers) / sizeof(numbers[0]);
 
-	int *ptr = numbers;
+	int *start = numbers;
+	int *end = numbers + (size - 1);
 	printf("Original array : ");
-	print_arr(ptr,size);
-	reverse_arr(ptr,size);
+	print_arr(numbers,size);
+	reverse_arr(start,end);
 	printf("Reversed array : ");
-	print_arr(ptr,size);
+	print_arr(numbers,size);
 
 	return 0;
 }
