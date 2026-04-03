@@ -1,0 +1,15 @@
+Exercise 3: Address Operator
+
+Practice Problem: Print the memory addresses of two different variables (e.g., an int and a float) using the address-of operator (&). Additionally, print the address of a pointer variable itself.
+
+Given:
+
+int a = 10;
+float b = 20.5f;
+
+Expected Output:
+
+Address of integer variable 'a': 0x7ffdd91e2bd8
+Address of float variable 'b': 0x7ffdd91e2bdc
+Address stored IN pointer 'p_a': 0x7ffdd91e2bd8
+Address of pointer variable 'p_a' itself: 0x7ffdd91e2be0
