@@ -1,0 +1,8 @@
+Exercise 8: Pointers to an Array (Array Name as Pointer)
+
+Practice Problem: Declare an array and attempt to assign a new address to the array’s name. Observe the compilation error and explain why it occurs.
+
+Given:
+
+int arr[5] = {1, 2, 3, 4, 5};
+int other_var = 10;
