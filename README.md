@@ -79,6 +79,7 @@ ultimate-c-exercises/
 ├── 04_functions/               # Defining and using functions, parameters, return types
 ├── 05_arrays/                  # Handling arrays, multi-dimensional arrays, and array operations
 ├── 06_strings/                 # String manipulation, character arrays, and string functions
+├── 07_pointers/ 
 └── README.md
 ```
 
