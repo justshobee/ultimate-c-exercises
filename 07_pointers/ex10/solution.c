@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/03 12:41:19 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/03 17:50:09 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/03 18:07:14 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ void print_arr(int *ptr,int size)
 	}
 	printf("\n");
 }
-
 int main()
 {
 	int numbers[] = {1, 2, 3, 4, 5, 6};
