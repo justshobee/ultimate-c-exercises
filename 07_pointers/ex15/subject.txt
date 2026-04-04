@@ -2,6 +2,7 @@ Exercise 15: Basic malloc
 
 Practice Problem: Dynamically allocate memory for a single integer using malloc(). Store the value 108 in this allocated memory, print the value and its memory address, and then free the memory using free().
 
+
 Expected Output:
 
 Value stored dynamically: 108

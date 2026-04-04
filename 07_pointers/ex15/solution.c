@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/04 11:32:27 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/04 19:22:33 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/04 19:41:54 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,7 @@ int main()
 		printf("Error : Memory allocation failed!\n");
 		exit(0);
 	}
-	
 	*ptr = 1337;
-
 	printf("Value stored dynamically: %d\n",*ptr);
 	printf("Memory address allocated: %p\n",ptr);
 
