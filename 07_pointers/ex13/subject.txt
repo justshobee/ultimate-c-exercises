@@ -1,0 +1,12 @@
+Exercise 13: Vowel Counter
+
+Practice Problem: Count the number of vowels (A, E, I, O, U, and their lowercase counterparts) in a given string using a character pointer for traversal.
+
+Given:
+
+char sentence[] = "The quick brown fox Jumps over the lazy dog";
+
+Expected Output:
+
+Sentence: The quick brown fox Jumps over the lazy dog
+Total number of vowels: 11
