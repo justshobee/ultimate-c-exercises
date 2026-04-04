@@ -1,0 +1,18 @@
+Exercise 16: Dynamic Array
+
+Practice Problem: Dynamically allocate memory for an array of 5 integers using malloc(). Read 5 integer values from the user into the array, print them using pointer arithmetic, and finally, free the allocated memory.
+
+Given:
+
+int count = 5;
+
+Expected Output:
+
+Enter 5 integers:
+Element 1: 10
+Element 2: 20
+Element 3: 30
+Element 4: 40
+Element 5: 50
+
+Stored elements are: 10 20 30 40 50
