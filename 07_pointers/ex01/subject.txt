@@ -1,3 +1,4 @@
+PHASE 1: POINTER FOUNDATIONS (30 EXERCISES)
 Exercise 1: Declaration and Initialization
 
 Practice Problem: Declare an integer variable, a pointer to an integer, and initialize the pointer to the address of the variable. Print both the variable’s value and the value accessed via the pointer.
