@@ -1,0 +1,8 @@
+Exercise 19: Memory Allocation Check
+
+Practice Problem: Write a robust program that attempts to dynamically allocate a very large block of memory (e.g., 1 GB). Include a check for the NULL return value from malloc() and handle the memory allocation failure gracefully by printing an error message and exiting with a non-zero status code.
+
+Expected Output:
+
+Attempting to allocate 1073741824 bytes (approx 1 GB)...
+Successfully allocated the large block at address: 0x72a7c8de3010
