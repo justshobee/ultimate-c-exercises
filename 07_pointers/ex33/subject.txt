@@ -1,0 +1,12 @@
+Exercise 3: Maximum and Minimum element
+
+Practice Problem: Write a C program that determines and prints the largest (maximum) and the smallest (minimum) value among all elements in a given array.
+
+Given:
+
+int arr[6] = {55, 12, 89, 4, 30, 77};
+
+Expected Output:
+
+Maximum element in the array: 89
+Minimum element in the array: 4
