@@ -1,0 +1,12 @@
+Exercise 2: Sum and Average
+
+Practice Problem: Write a C program that calculates and prints the total sum and the arithmetic average of all numerical elements present in a given array.
+
+Given:
+
+int arr[5] = {10, 20, 30, 40, 50};
+
+Expected Output:
+
+Sum of array elements: 150
+Average of array elements: 30.00
