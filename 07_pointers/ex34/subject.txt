@@ -1,0 +1,13 @@
+Exercise 4: Count Even and Odd Elements
+
+Practice Problem: Write a C program that counts and print the total number of even numbers and the total number of odd numbers stored within an integer array.
+
+Given:
+
+int arr[8] = {1, 4, 7, 12, 15, 20, 3, 10};
+
+Expected Output:
+
+Array: 1, 4, 7, 12, 15, 20, 3, 10
+Total even elements: 4
+Total odd elements: 4
