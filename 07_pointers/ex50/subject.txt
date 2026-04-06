@@ -1,0 +1,11 @@
+Exercise 20: Insertion Sort
+
+Practice Problem: Write a C program to sort an array in ascending order using the Insertion Sort algorithm.
+
+Given:
+
+int arr[] = {12, 11, 13, 5, 6};
+
+Expected Output:
+
+Array sorted using Insertion Sort: 5 6 11 12 13
