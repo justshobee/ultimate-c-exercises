@@ -1,0 +1,12 @@
+Exercise 32: Remove Duplicate Elements from an Unsorted Array
+
+Practice Problem: Write a C program to remove duplicate elements from a given array that is unsorted. The modification should happen in-place.
+
+Given:
+
+int arr[] = {4, 2, 4, 1, 5, 2, 3, 1};
+
+Expected Output:
+
+Original array: 4 2 4 1 5 2 3 1
+Array after removing duplicates (new size 5): 4 2 1 5 3 
