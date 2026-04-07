@@ -1,0 +1,21 @@
+Exercise 35: Read and Print a 3×3 Matrix
+
+Practice Problem: Write a C program to read elements from the user for a 3×3 matrix (3 rows and 3 columns) and then display the matrix elements in a clear, row-by-row format.
+
+Expected Output:
+
+Enter the elements of the 3x3 matrix:
+Element [0][0]: 10
+Element [0][1]: 20
+Element [0][2]: 30
+Element [1][0]: 40
+Element [1][1]: 50
+Element [1][2]: 60
+Element [2][0]: 70
+Element [2][1]: 80
+Element [2][2]: 90
+
+The matrix is:
+10      20      30
+40      50      60
+70      80      90
