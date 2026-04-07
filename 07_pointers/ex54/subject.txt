@@ -1,0 +1,11 @@
+Exercise 24: Most Frequent Element
+
+Practice Problem: Write a C program to find and print the element that appears the greatest number of times (the mode) in a given array.
+
+Given:
+
+int arr[] = {2, 5, 2, 8, 5, 1, 5, 9, 1, 2, 5};
+
+Expected Output:
+
+The most frequent element is: 5
