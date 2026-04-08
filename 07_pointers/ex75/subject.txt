@@ -1,0 +1,12 @@
+Exercise 5: Compare Strings
+
+Practice Problem: Check if two strings (str1 and str2) are identical (case-sensitive) and determine the result without using the built-in strcmp() function.
+
+Given:
+
+char str1[] = "apple";
+char str2[] = "apple";
+
+Expected Output:
+
+The strings are identical.
