@@ -1,0 +1,9 @@
+Exercise 17: Remove Extra Spaces
+Practice Problem: Modify a string in place to remove all leading spaces, trailing spaces, and reduce multiple consecutive spaces between words to just a single space.
+
+Given:
+
+char str[] = "  This  is   a  test.   ";
+Expected Output:
+
+Normalized string: "This is a test."
