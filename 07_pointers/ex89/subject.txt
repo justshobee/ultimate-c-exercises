@@ -1,0 +1,31 @@
+Exercise 19: Extract Substring
+Practice Problem: Extract a substring from a source string given a starting position (index) and the desired length. The resulting substring should be stored in a new string.
+
+Given:
+
+char source[] = "Programming In C";
+int start_index = 0; // Start from 'r' (index 4)
+int length = 7;      // Extract 7 characters ("ramming")
+char destination[15]; // Destination buffer size
+Expected Output:
+
+Source: Programming In C
+Substring: Program
+
+$fish  11:40:39 >  valgrind --leak-check=yes ./a.out
+==208456== Memcheck, a memory error detector
+==208456== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==208456== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==208456== Command: ./a.out
+==208456==
+Substring : "Program"
+==208456==
+==208456== HEAP SUMMARY:
+==208456==     in use at exit: 0 bytes in 0 blocks
+==208456==   total heap usage: 2 allocs, 2 frees, 1,032 bytes allocated
+==208456==
+==208456== All heap blocks were freed -- no leaks are possible
+==208456==
+==208456== For lists of detected and suppressed errors, rerun with: -s
+==208456== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
