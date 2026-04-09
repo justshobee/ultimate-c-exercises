@@ -1,0 +1,12 @@
+Exercise 18: Check For Digit
+Practice Problem: Determine if a string consists entirely of digit characters (‘0’ through ‘9’). The string must contain at least one character.
+
+Given:
+
+char str1[] = "12345";
+char str2[] = "123a45";
+Expected Output:
+
+String: "12345"
+Result: Contains only digits.
+

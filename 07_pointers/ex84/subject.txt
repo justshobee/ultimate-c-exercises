@@ -1,0 +1,14 @@
+Exercise 14: Character Frequency
+Practice Problem: Calculate and print the frequency (count) of every lowercase alphabet character (‘a’ through ‘z’) present in a given string
+
+Given:
+
+char str[] = "Jessa";
+int freq[26] = {0}; // Initialize all 26 counters to zero
+Expected Output:
+
+Character Frequencies (a-z):
+'a': 1
+'e': 1
+'j': 1
+'s': 2

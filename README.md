@@ -112,7 +112,7 @@ If you have any questions, encounter issues, or want to suggest new exercise top
 
 **⭐ Star this repo if you find it helpful for your C programming journey!**
 
-Made with ❤️ by justshobee
+By justshobee
 
 </div>
 

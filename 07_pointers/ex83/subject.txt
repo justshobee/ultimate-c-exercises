@@ -1,0 +1,10 @@
+Exercise 13: Last Occurrence
+Practice Problem: Find the index (position) of the last occurrence of a specific character (provided by the user) within a given string.
+
+Given:
+
+char str[] = "programming";
+char target = 'g';
+Expected Output:
+
+Last occurrence of 'g' found at index: 10
