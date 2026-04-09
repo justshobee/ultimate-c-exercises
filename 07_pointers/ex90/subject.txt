@@ -6,7 +6,6 @@ Given:
 char haystack[] = "This is a search test";
 char needle[] = "search";
 Expected Output:
-
 Haystack: "This is a search test"
 Needle: "search"
 Substring found at index: 10
