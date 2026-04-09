@@ -1,0 +1,12 @@
+Exercise 20: Search Substring
+Practice Problem: Determine if a smaller string (needle) exists anywhere within a larger string (haystack). If found, report the starting index of its first occurrence.
+
+Given:
+
+char haystack[] = "This is a search test";
+char needle[] = "search";
+Expected Output:
+
+Haystack: "This is a search test"
+Needle: "search"
+Substring found at index: 10
