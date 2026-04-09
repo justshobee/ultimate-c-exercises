@@ -1,0 +1,48 @@
+1 - The static storage class is used here to alter the variable’s lifetime.
+
+    Lifetime Extended: A static local variable is created and initialized only once (when the program starts, or the first time control flow passes over its declaration). It maintains its value throughout the execution of the program.
+    Scope Maintained: Crucially, even though its lifetime is extended, its scope remains local to the function. It cannot be accessed directly from main. This is often used for counters or flags that need to track function usage internally.
+
+2 -
+
+Global variables are declared outside all function bodies.
+
+    Scope: They have file scope, meaning they are visible from their point of declaration to the end of the file.
+    Lifetime: They have a program lifetime, meaning they exist for the entire duration of the program.
+    Access: Any function in the file can directly read and modify a global variable, which is often considered bad practice as it reduces modularity and makes code harder to debug (side effects are difficult to track).
+
+
+3 - The register storage class is primarily a performance hint.
+
+    Purpose: It suggests that the variable will be accessed frequently and should ideally be stored in a CPU register. Accessing registers is significantly faster than accessing main memory (RAM).
+    Modern C: Modern compilers are highly optimized. They often ignore the register keyword and decide register allocation themselves, making its use mostly historical or academic. You cannot take the address of a register variable using &, because a register does not have a conventional memory address.
+
+
+4 - The extern storage class and prototypes enable separate compilation and linking.
+
+    External Linkage: By default, non-static functions have external linkage, meaning they are visible across multiple object files.
+    Compiler vs. Linker: When main.c is compiled, the prototype tells the compiler the function signature, allowing the call to be validated. The compiler assumes the function is defined elsewhere. The linker then takes the object files for main.c and helper.c and resolves the function call by connecting it to the actual code block in helper.c. Explicitly using extern on the prototype emphasizes this external linkage.
+
+5 -
+
+The inline keyword is an optimization hint that minimizes function call overhead.
+
+    Inlining: Instead of creating a separate block of code for get_min and jumping to it every time it’s called, the compiler copies the function’s body directly into the calling function’s code at the point of the call.
+    Trade-offs: This can improve speed by removing call overhead but can increase the overall program size (code bloat) if the function is called many times or if the function body is large. It is typically best reserved for very small, frequently used functions.
+
+6 - Macros are processed by the C preprocessor before compilation.
+
+    Text Substitution: A macro is a simple text replacement. When the preprocessor sees SQUARE(a), it literally replaces it with ((a) * (a)).
+    Safety: The parentheses are vital. If the macro were defined as #define SQUARE(x) x * x, the call SQUARE(b + 1) would expand to b + 1 * b + 1, which evaluates to 3+3+1=7 (due to operator precedence), which is incorrect. Wrapping ensures the intended arithmetic grouping.
+
+7 - Variadic functions (like printf) allow a function to accept an indefinite number of arguments.
+
+    va_end: Cleans up the memory associated with args before the function returns.
+    count: A variadic function must have at least one fixed argument (count here) to tell the function how many arguments follow or what their types are.
+    va_start: Initializes the pointer (args) to the beginning of the variable argument list.
+    va_arg: Retrieves the next argument in the list. The second parameter (int in this case) is crucial because the function must explicitly know the type of the data being extracted.
+8 - These functions provide explicit control over a program’s lifetime.
+
+    atexit(): Registers a function (the exit handler or cleanup function) to be called automatically upon normal program termination (when main returns or when exit() is called). This is essential for closing files, releasing locks, or freeing global resources.
+    exit(): Causes immediate, unconditional termination of the program. Unlike returning from main, it stops execution wherever it’s called. Crucially, it flushes output buffers and calls all functions registered by atexit() before the process ends. (Note: _exit() or _Exit() terminate immediately without calling atexit() handlers.)
+
