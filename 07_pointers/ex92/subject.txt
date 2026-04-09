@@ -1,0 +1,10 @@
+Exercise 22: Palindrome Check
+Practice Problem: Determine if a string is a palindrome (reads the same forwards and backwards, ignoring case and punctuation for a robust check, but for simplicity, only consider the exact characters).
+
+Given:
+
+char str[] = "madam";
+Expected Output:
+
+String: madam
+Result: It is a palindrome.
