@@ -1,0 +1,119 @@
+================================================================================
+          THE ULTIMATE 100-EXERCISE POINTER CHALLENGE (C PROGRAMMING)
+================================================================================
+Rule: Avoid using square brackets [] for indexing. 
+Use Pointer Arithmetic *(ptr + i) for all exercises.
+================================================================================
+
+PHASE 1: POINTER FOUNDATIONS (30 EXERCISES)
+--------------------------------------------------------------------------------
+1.  Declaration and Initialization of pointers.
+2.  Accessing values using Dereferencing (*).
+3.  Finding variable addresses using the Address Operator (&).
+4.  Checking Pointer Size for different data types.
+5.  Passing by Reference (modifying variables inside functions).
+6.  Simple Array Traversal using a pointer.
+7.  Accessing Array Elements via pointer arithmetic.
+8.  Proving Array Name as a Pointer (base address).
+9.  Calculating the Sum of Array Elements using pointers.
+10. Reversing an Array using Start and End pointers.
+11. Finding String Length without strlen() (using pointers).
+12. Implementing String Copy (strcpy) using pointers.
+13. Counting Vowels in a string via pointers.
+14. Printing individual characters of a string using pointers.
+15. Basic malloc: Allocate memory for an integer.
+16. Dynamic Array: Create an array using malloc based on user input.
+17. Using calloc: Observe zero-initialization.
+18. Using realloc: Resize a dynamic array.
+19. Memory Allocation Check: Handle NULL returns from malloc.
+20. Introduction to Double Pointers (**ptr).
+21. Function with Double Pointer: Update an address inside a function.
+22. 2D Array Simulation using a pointer to pointers.
+23. Swap Two Numbers using a swap(int *a, int *b) function.
+24. Return Multiple Values (min/max) using pointers.
+25. Pointer to a Function: Call a function via its address.
+26. Structure Pointer: Use the arrow (->) operator.
+27. Array of Structures: Traverse using pointer increments.
+28. Dynamic Structure Allocation on the heap.
+29. Generic Pointers (void *): Typecasting to different types.
+30. Pointer Arithmetic Boundary: Test incrementing beyond limits.
+
+PHASE 2: POINTER-BASED ARRAY MANIPULATION (40 EXERCISES)
+--------------------------------------------------------------------------------
+31. Read and Print elements of an array.
+32. Calculate Sum and Average of an array.
+33. Find Maximum and Minimum elements.
+34. Count Even and Odd numbers in an array.
+35. Reverse an Array "In Place" using pointers.
+36. Copy one array to another.
+37. Insert an Element into an array (shifting with pointers).
+38. Delete an Element from an array.
+39. Find the Second Largest and Second Smallest elements.
+40. Calculate Sum of Positive and Negative numbers separately.
+41. Linear Search in an array.
+42. Frequency Count of a specific element.
+43. Binary Search implementation with pointers.
+44. Print all Unique Elements in an array.
+45. Merge Two Arrays into a third array.
+46. Check if an Array is a Palindrome.
+47. Sort an Array (Bubble Sort logic with pointers).
+48. Check if an Array is already sorted.
+49. Sort an Array in Descending Order.
+50. Insertion Sort implementation.
+51. Merge Two Sorted Arrays into a single sorted array.
+52. Remove Duplicate Elements from an array.
+53. Count Frequency of every element in the array.
+54. Find the Most Frequent Element (Mode).
+55. Check if Two Arrays are Equal.
+56. Separate Even and Odd numbers (Evens left, Odds right).
+57. Rotate Array Left by one position.
+58. Rotate Array Right by one position.
+59. Rotate Array Left by 'n' positions.
+60. Rotate Array Right by 'n' positions.
+61. Remove Duplicates from a Sorted Array.
+62. Remove Duplicates from an Unsorted Array.
+63. Reverse a specific portion of an array.
+64. Find a Missing Number in a sequence of 1 to N.
+65. Read and Print a 3x3 Matrix using pointers.
+66. Calculate Sum of all elements in a Matrix.
+67. Print Matrix elements in Reverse Order.
+68. Calculate Sum of individual Rows and Columns.
+69. Matrix Addition using pointers.
+70. Matrix Subtraction using pointers.
+
+PHASE 3: ADVANCED STRING PROCESSING WITH POINTERS (30 EXERCISES)
+--------------------------------------------------------------------------------
+71. Read and Print a String using fgets and a pointer.
+72. Manual String Length implementation.
+73. Manual String Copy implementation.
+74. Manual String Concatenation (strcat).
+75. Manual String Comparison (strcmp).
+76. Convert String to Uppercase.
+77. Convert String to Lowercase.
+78. Toggle Case (Upper to Lower and vice versa).
+79. Count Vowels and Consonants in one pass.
+80. Count total Words in a string.
+81. Count occurrences of a Specific Character.
+82. Find the First Occurrence of a character (return pointer).
+83. Find the Last Occurrence of a character.
+84. Generate a Character Frequency table.
+85. Remove a Specific Character from a string.
+86. Find the first Non-Repeating Character.
+87. Remove Extra Spaces (trimming).
+88. Check if a string contains only Digits.
+89. Extract a Substring using pointers.
+90. Search for a Substring within a string (strstr).
+91. Reverse a String using two pointers.
+92. Check if a String is a Palindrome.
+93. Reverse the order of Words in a string.
+94. Remove Duplicate characters from a string.
+95. Check if two strings are Anagrams.
+96. Sort characters in a string alphabetically.
+97. Find the Highest Frequency Character.
+98. String to Integer (Manual atoi implementation).
+99. Integer to String (Manual itoa implementation).
+100. Simple URL Parser: Separate Protocol, Domain, and Path.
+
+================================================================================
+                                END OF ROADMAP
+================================================================================
