@@ -1,0 +1,12 @@
+Exercise 25: Check Anagrams
+Practice Problem: Determine if two strings are anagrams of each other (meaning they contain the exact same characters with the same frequencies, regardless of order). Case and spaces should be ignored for a robust check.
+
+Given:
+
+char str1[] = "listen";
+char str2[] = "silent";
+Expected Output:
+
+String 1: listen
+String 2: silent
+Result: They are anagrams.
