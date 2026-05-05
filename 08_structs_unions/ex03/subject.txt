@@ -1,0 +1,23 @@
+Exercise 3: Finding the Highest Percentage
+Practice Problem: Create an array of 3 Student structures (using the definition from Exercise 1). Input data for all 3 students. Then, iterate through the array to find and display the details of the student who has the highest percentage.
+
+Expected Output:
+
+Enter details for Student 1:
+Name: Jessa
+Roll Number: 25
+Percentage: 85
+
+Enter details for Student 2:
+Name: Jon
+Roll Number: 26
+Percentage: 76
+
+Enter details for Student 3:
+Name: Gopal
+Roll Number: 27
+Percentage: 84
+
+--- Student with Highest Percentage ---
+Name: Jessa
+Percentage: 85.00%
