@@ -1,0 +1,15 @@
+Exercise 16: Function Pointers in Structures
+Practice Problem: Define a structure Operation that contains two integer operands (op1, op2) and a function pointer (op_func) that can point to a function which takes two integers and returns an integer. Write two separate functions (add and subtract). Use the structure to set the operands and call both add and subtract using the function pointer.
+
+Given:
+
+// 1. Structure Definition with Function Pointer
+struct Operation {
+    int op1;
+    int op2;
+    int (*op_func)(int, int); // Function pointer member
+};
+Expected Output:
+
+Addition (50 + 15): 65
+Subtraction (50 - 15): 35
