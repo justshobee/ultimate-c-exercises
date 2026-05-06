@@ -1,0 +1,12 @@
+Exercise 17: Bit Fields
+Practice Problem: Define a structure Permissions to store three boolean flags: read, write, and execute. Use bit fields to ensure that each flag occupies the minimum possible memory (1 bit). Initialize an instance of this structure and display the total memory size occupied.
+
+Expected Output:
+
+File Permissions:
+Read: 1
+Write: 0
+Execute: 1
+
+Size of Permissions Structure: 4 bytes
+
