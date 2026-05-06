@@ -1,0 +1,28 @@
+Exercise 22: Simple Inventory Management (Application)
+Practice Problem: Define a structure for an Item (ID, name, quantity, unit_price). Implement two functions: add_item (to input data for a new item) and calculate_value (which takes an Item and returns its total inventory value: Quantity×Price). In main, use these functions for three items and display the total inventory value of all three.
+
+Given:
+
+struct Item {
+    int id;
+    char name[50];
+    int quantity;
+    float unit_price;
+};
+Expected Output:
+
+Item ID 100
+  Enter Name: Notebook
+  Enter Quantity: 5
+  Enter Unit Price: $5
+Item ID 101
+  Enter Name: Pen
+  Enter Quantity: 10
+  Enter Unit Price: $2
+Item ID 102
+  Enter Name: Pencil
+  Enter Quantity: 10
+  Enter Unit Price: $1
+
+--- Total Inventory Value ---
+Total value of all items: $55.00
