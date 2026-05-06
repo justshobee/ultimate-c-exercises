@@ -116,6 +116,7 @@ ultimate-c-exercises/
 ├── 05_arrays/                   # 1D arrays, 2D arrays, array operations (40 exercises)
 ├── 06_strings/                  # String manipulation, character arrays, functions (30 exercises)
 ├── 07_pointers/                 # Pointers basics, dereferencing, arrays of pointers (60+ exercises)
+├── 08_structs_unions/           # Structs, unions, nested structures, typedef (45 exercises)
 └── README.md                    # You are here!
 ```
 
@@ -239,6 +240,26 @@ Pointers are what make C powerful! This advanced topic opens doors to dynamic me
 
 ---
 
+### 8. Structs & Unions (`08_structs_unions/`)
+**45 Exercises** | *Duration: 2-3 weeks*
+
+Learn to create custom data types and organize related data. Master structures and unions for building complex data models.
+
+**Topics Covered:**
+- Structure definition and declaration
+- Accessing structure members
+- Nested structures
+- Arrays of structures
+- Pointers to structures
+- Unions and their differences from structs
+- `typedef` for custom types
+- Structure padding and memory alignment
+- Practical applications: linked lists preparation
+
+**Best For:** Building complex data types and preparing for advanced data structures
+
+---
+
 ## How to Use This Repository
 
 ### For Absolute Beginners
@@ -357,6 +378,7 @@ Keep track of your progress! Here's a template:
 - [ ] 05_arrays (all 40 exercises)
 - [ ] 06_strings (all 30 exercises)
 - [ ] 07_pointers (all 60+ exercises)
+- [ ] 08_structs_unions (all 45 exercises)
 
 ---
 
