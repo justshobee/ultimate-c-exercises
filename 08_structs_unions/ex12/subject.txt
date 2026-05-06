@@ -1,0 +1,12 @@
+Exercise 12: Structure vs. Union Size
+Practice Problem: Define a structure TestStruct and a union TestUnion, both containing the exact same members: char c, int i, and float f. Write a program to use the sizeof operator to display the memory size occupied by both the structure and the union.
+
+Expected Output:
+
+Size of 'char' (typically 1 byte)
+Size of 'int' (typically 4 bytes)
+Size of 'float' (typically 4 bytes)
+
+----------------------------------
+Size of Structure (Struct): 12 bytes
+Size of Union (Union): 4 bytes
