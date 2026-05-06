@@ -1,0 +1,30 @@
+Exercise 19: Merging Structures (Data Consolidation)
+Practice Problem: Define two structures: Personal_Info (id, address) and Job_Info (id, title, salary). Create a third structure, Full_Record (id, address, title, salary). Write a function that takes instances of Personal_Info and Job_Info (ensuring their IDs match) and returns a consolidated Full_Record structure.
+
+Given:
+
+struct Personal_Info {
+    int id;
+    char address[100];
+};
+
+struct Job_Info {
+    int id;
+    char title[50];
+    float salary;
+};
+
+// 1. Consolidated Structure
+struct Full_Record {
+    int id;
+    char address[100];
+    char title[50];
+    float salary;
+};
+Expected Output:
+
+--- Consolidated Employee Record ---
+ID: 105
+Address: 123 Main St
+Title: Software Engineer
+Salary: $85000.00
