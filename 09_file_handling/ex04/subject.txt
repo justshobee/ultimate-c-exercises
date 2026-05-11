@@ -1,0 +1,7 @@
+Exercise 4: Count Characters in a File
+
+Practice Problem: Write a program to read a text file (e.g., data.txt updated in Exercise 3) character by character and count the total number of characters in it, including spaces and newlines.
+
+Expected Output:
+
+Total number of characters in the file: 91
