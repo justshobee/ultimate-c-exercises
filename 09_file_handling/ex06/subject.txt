@@ -1,0 +1,7 @@
+Exercise 6: Count Words in a File
+
+Practice Problem: Read a any text file (e.g., data.txt updated in Exercise 3) and count the total number of words. Assume words are separated by spaces, tabs, or newlines.
+
+Expected Output:
+
+Total number of words in the file: 12
