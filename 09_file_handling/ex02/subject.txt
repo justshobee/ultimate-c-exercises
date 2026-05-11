@@ -1,0 +1,8 @@
+Exercise 2: Read and Display File Content
+
+Practice Problem: Read the entire content of the existing file data.txt (created in Exercise 1) and display it line by line on the console using fscanf() or fgets().
+
+Expected Output:
+
+Name: Alice Johnson
+Age: 30 years
