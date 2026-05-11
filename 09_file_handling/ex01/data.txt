@@ -1,0 +1,3 @@
+data.txt
+Name : Mohammed Choubi
+Age : 22 yesrs

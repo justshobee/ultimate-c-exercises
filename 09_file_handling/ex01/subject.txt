@@ -1,0 +1,11 @@
+Exercise 1: Create and Write to a File
+
+Practice Problem: Develop a C program to create a new text file named data.txt and write two lines of personal information (e.g., your name and age) to it using fprintf().
+
+Expected Output:
+
+Data successfully written to data.txt.
+
+data.txt
+Name: Alice Johnson
+Age: 30 years
