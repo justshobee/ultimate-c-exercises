@@ -1,0 +1,9 @@
+Exercise 10: Read Numbers and Calculate Sum
+
+Practice Problem: Read the sequence of integers from the file numbers.txt (created in Exercise 9) and calculate and display their total sum.
+
+Expected Output:
+
+Reading numbers from file and calculating sum...
+Successfully processed all numbers.
+The total sum of the numbers is: 55
