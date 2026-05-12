@@ -1,0 +1,12 @@
+Exercise 7: Copy File
+
+Practice Problem: Create a program to copy the entire content of a source file (data.txt updated in Exercise 3) to a destination file (destination.txt).
+
+Expected Output:
+
+destination.txt
+
+Name: Alice Johnson
+Age: 30 years
+Date Appended: 2025-10-15
+Status: Successfully appended.
