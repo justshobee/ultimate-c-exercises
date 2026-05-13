@@ -1,0 +1,13 @@
+Exercise 14: Replace Word in a File
+
+Practice Problem: Read a any text file (you can refer data.txt updated in exercise 3) and replace all occurrences of a specific word (e.g., “the”) with a new word (e.g., “a”) and save the result to a new file (modified.txt).
+
+Given:
+
+sample.txt
+
+The mouse that the cat hit that the dog bit that the fly landed on ran away
+
+Expected Output:
+
+The mouse that a cat hit that a dog bit that a fly landed on ran away 
