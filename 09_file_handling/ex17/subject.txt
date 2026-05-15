@@ -1,0 +1,7 @@
+Exercise 17: Tab to Spaces Conversion
+
+Practice Problem: Read a file (tabbed.txt) and replace every tab character (\t) with exactly four space characters (), saving the result to a new file (spaced.txt).
+
+Expected Output:
+
+Tabs replaced with 4 spaces. Saved to 'spaced.txt'.
