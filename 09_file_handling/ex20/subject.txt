@@ -1,0 +1,19 @@
+Exercise 20: Write Student Record
+
+Practice Problem: Define a C struct Student containing name (string), roll_number (int), and marks (float). Write a single student’s record received from the user to file named students.txt.
+
+Given:
+
+// Student structure
+struct Student {
+    char name[50];
+    int roll_number;
+    float marks;
+};
+
+Expected Output:
+
+Enter Student Name: Jessa
+Enter Roll Number: 25
+Enter Marks: 85
+Student record successfully written to students.
