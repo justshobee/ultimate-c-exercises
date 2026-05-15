@@ -1,0 +1,7 @@
+data.txt
+Name : Mohammed Choubi
+Age : 22 yesrs
+Date Appended : 2019-00-00
+Status: Successfully appended.
+Date Appended : 2019-00-00
+Status: Successfully appended.
