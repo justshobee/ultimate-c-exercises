@@ -3,8 +3,6 @@
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/justshobee/ultimate-c-exercises?style=for-the-badge)](https://github.com/justshobee/ultimate-c-exercises/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/justshobee/ultimate-c-exercises?style=for-the-badge)](https://github.com/justshobee/ultimate-c-exercises/network)
-[![GitHub issues](https://img.shields.io/github/issues/justshobee/ultimate-c-exercises?style=for-the-badge)](https://github.com/justshobee/ultimate-c-exercises/issues)
 [![Exercises](https://img.shields.io/badge/Exercises-350%2B-brightgreen?style=for-the-badge)](#)
 
 **A comprehensive collection of 350+ C programming exercises designed to solidify fundamental concepts through hands-on practice.**
