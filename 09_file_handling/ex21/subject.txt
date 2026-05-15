@@ -1,0 +1,7 @@
+Exercise 21: Determine File Size
+
+Practice Problem: Write a program to find and display the size of a given file in bytes.
+
+Expected Output:
+
+The size of 'data.txt' is: 120 bytes
