@@ -1,0 +1,29 @@
+# Exercise 4: Nested Structure (Structure within a Structure)
+
+## Description
+Define a structure Date (members: day, month, year). Define another structure Employee (members: id, name, and an instance of the Date structure called joining_date). Input and display the employee’s ID, name, and joining date.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+- `scanf`
+
+## Examples
+### Expected Output
+```text
+Enter Employee ID: 1
+Enter Employee Name: Jessa
+Enter Joining Day (DD): 10
+Enter Joining Month (MM): 6
+Enter Joining Year (YYYY): 2024
+
+--- Employee Details ---
+ID: 1
+Name: Jessa
+Joining Date: 10/6/2024
+```

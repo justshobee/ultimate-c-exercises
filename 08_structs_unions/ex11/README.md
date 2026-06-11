@@ -1,11 +1,24 @@
-Exercise 11: Basic Union
-Practice Problem: Define a Union called Data that can hold an integer (i), a float (f), or a character array (str[20]). Write a program to:
+# Exercise 11: Basic Union
+
+## Description
+Define a Union called Data that can hold an integer (i), a float (f), or a character array (str[20]). Write a program to:
 
 Assign a value to the integer member (i) and print it.
 Immediately assign a value to the float member (f) and print it.
 Print the value of the integer member (i) again to demonstrate data overwriting.
-Expected Output:
 
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Expected Output
+```text
 After assigning d.i = 10:
 d.i = 10
 Size of union: 20 bytes
@@ -14,3 +27,4 @@ After assigning d.f = 250.75:
 d.f = 250.75
 
 Printing d.i again: 1132118016 (This is a corrupted or unintended data
+```

@@ -1,0 +1,26 @@
+# Exercise 5: Passing Structure to a Function
+
+## Description
+Define a Rectangle structure (members: length, width). Write a function, calculate_properties, that accepts a Rectangle structure as an argument. Inside the function, calculate the area (L×W) and perimeter (2×(L+W)) of the rectangle and print these results directly.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+- `scanf`
+
+## Examples
+### Expected Output
+```text
+Enter Length of Rectangle: 10
+Enter Width of Rectangle: 5
+
+--- Calculation Results ---
+Length: 10.00, Width: 5.00
+Area: 50.00
+Perimeter: 30.00
+```

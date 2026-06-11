@@ -1,0 +1,35 @@
+# Exercise 10: Dynamic Memory Allocation for Structure
+
+## Description
+Define a Circle structure (members: radius and area). Use the malloc() function to dynamically allocate memory for a single Circle structure. Assign a radius, calculate the area (πr2), and display the results. Remember to free the allocated memory.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `free`
+- `malloc`
+- `printf`
+- `scanf`
+
+## Examples
+### Given
+```c
+// 1. Structure Definition
+struct Circle {
+    float radius;
+    float area;
+};
+```
+
+### Expected Output
+```text
+Enter Circle Radius: 5
+
+--- Dynamic Circle Report ---
+Radius: 5.00
+Area: 78.54
+```

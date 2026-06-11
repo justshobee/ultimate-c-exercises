@@ -1,0 +1,34 @@
+# Exercise 18: Searching in an Array of Structures
+
+## Description
+Define an Employee structure (id, name, salary). Create an array of 4 employees and input their details. Implement a function, search_employee, that takes the array and an ID as arguments, finds the employee with the matching ID, and prints their details. If the ID is not found, print a suitable message.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+// 1. Structure Definition
+struct Employee {
+    int id;
+    char name[50];
+    float salary;
+};
+```
+
+### Expected Output
+```text
+Enter Employee ID to search (e.g., 102): 103
+
+--- Employee Found ---
+ID: 103
+Name: Charlie
+Salary: $50000.00
+```
