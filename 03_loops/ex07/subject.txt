@@ -1,7 +1,0 @@
-Exercise 7: Sum Of All Even Numbers
-
-Practice Problem: Write a C program to calculate the sum of all even numbers from 1 to 20.
-
-Expected Output:
-
-Sum of even numbers = 110

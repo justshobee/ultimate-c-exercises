@@ -1,0 +1,31 @@
+# Exercise 8: Multiplication Table
+
+## Description
+Write a C program to print the multiplication table of a given integer N from 1 × N up to 10 × N using loop.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+- `scanf`
+
+## Examples
+### Given
+```c
+int num = 2;
+```
+
+### Expected Output
+```text
+--- Multiplication Table for 2 ---
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+...
+2 x 10 = 20
+```
