@@ -1,7 +1,0 @@
-Exercise 8: User Input
-
-Practice Problem: Prompt the user to enter his/her age and name. Store these values in variables and print them back to the user in a formatted sentence.
-
-Expected Output:
-
-You are 30 years old and your name is 'Jhon'.

@@ -1,7 +1,0 @@
-Exercise 13: Decimal to Hexadecimal
-
-Practice Problem: Declare an integer variable, assign it a decimal value, and print its hexadecimal representation.
-
-Given:
-
-int decimal_num = 255;

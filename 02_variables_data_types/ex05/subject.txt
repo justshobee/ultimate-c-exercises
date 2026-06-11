@@ -1,8 +1,0 @@
-Exercise 5: Type Casting
-
-Practice Problem: Write a C program that declares an integer and a float. Perform a type cast to convert the float to an int and vice versa. Print both results.
-
-Given:
-
-int intVar = 10;
-float floatVar = 25.75f;

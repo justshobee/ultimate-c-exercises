@@ -1,0 +1,23 @@
+# Exercise 4: Size of Data Types
+
+## Description
+Print the size of int, float, double, char, and long double on your system.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Expected Output
+```text
+Size of int: 4 bytes
+Size of float: 4 bytes
+Size of double: 8 bytes
+Size of char: 1 bytes
+Size of long double: 16 bytes
+```

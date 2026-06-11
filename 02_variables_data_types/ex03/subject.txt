@@ -1,3 +1,0 @@
-Exercise 3: Character and ASCII
-
-Practice Problem: Write a C program that takes a single character input from the user and prints its ASCII value.

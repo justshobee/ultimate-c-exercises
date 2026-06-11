@@ -1,3 +1,0 @@
-Exercise 1: Integer Operations
-
-Practice Problem: Write a C program that declares two integer variables, assigns them values, and prints their sum, difference, product, and quotient.
