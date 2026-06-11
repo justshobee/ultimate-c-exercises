@@ -1,9 +1,0 @@
-Exercise 1: Read and Print String
-
-Practice Problem: Write a C program to prompt the user to enter a string (which may contain spaces) and then print the exact string back to the console.
-
-Expected Output:
-
-Enter a string (up to 99 characters):
-PYnative
-You entered: PYnative

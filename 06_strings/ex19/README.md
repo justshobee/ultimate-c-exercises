@@ -1,0 +1,28 @@
+# Exercise 19: Extract Substring
+
+## Description
+Extract a substring from a source string given a starting position (index) and the desired length. The resulting substring should be stored in a new string.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+char source[] = "Programming In C";
+int start_index = 0; // Start from 'r' (index 4)
+int length = 7;      // Extract 7 characters ("ramming")
+char destination[15]; // Destination buffer size
+```
+
+### Expected Output
+```text
+Source: Programming In C
+Substring: Program
+```
