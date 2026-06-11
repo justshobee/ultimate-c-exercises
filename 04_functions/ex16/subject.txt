@@ -1,7 +1,0 @@
-Exercise 16: Tail Recursion
-
-Practice Problem: Try to implement the factorial function using tail recursion (where the recursive call is the last operation in the function). This typically requires a helper function or an accumulator parameter.
-
-Expected Output:
-
-Factorial of 5 (Tail Recursion) is: 120

@@ -1,0 +1,13 @@
+# Exercise 8: Structure as a Parameter
+
+## Description
+Define a structure struct Point {int x; int y;}. Write a function print_point(struct Point p) that takes an instance of this structure by value and prints its coordinates in the format (x, y).
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`

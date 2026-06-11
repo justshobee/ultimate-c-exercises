@@ -1,8 +1,0 @@
-Exercise 11: register Storage Class
-
-Practice Problem: Briefly discuss the intended use of the register storage class for a function parameter and apply it to a simple parameter in a function sum_two(register int a, register int b).
-
-Expected Output:
-
-a:50 b:75
-Sum: 125

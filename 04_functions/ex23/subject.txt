@@ -1,3 +1,0 @@
-Exercise 23: Function-like Macro (Simple)
-
-Practice Problem: Define a simple function-like macro SQUARE(x) that calculates x×x. Demonstrate a simple use case.
