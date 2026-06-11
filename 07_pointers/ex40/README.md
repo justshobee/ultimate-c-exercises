@@ -1,0 +1,27 @@
+# Exercise 10: Sum of Positive and Negative Numbers Separately
+
+## Description
+Write a C program that iterates through an array of positive, negative, and zero integers and calculates two separate sums: the total sum of all positive numbers, and the total sum of all negative numbers.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+int size = 9;
+int arr[9] = {15, -5, 20, 0, -10, 30, -25, 5, 0};
+```
+
+### Expected Output
+```text
+Array elements: 15, -5, 20, 0, -10, 30, -25, 5, 0
+Sum of all positive numbers: 70
+Sum of all negative numbers: -40
+```

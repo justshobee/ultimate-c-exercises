@@ -1,0 +1,27 @@
+# Exercise 7: Accessing Array Elements
+
+## Description
+Given an array, access and print the third element (index 2) using three different methods: subscript notation, pointer notation with the base address, and pointer notation with an offset pointer.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+int data[5] = {1, 3, 5, 7, 9};
+```
+
+### Expected Output
+```text
+Array element at index 2 (Value should be 5):
+1. Subscript notation: 5
+2. Pointer notation (arr + 2): 5
+3. Pointer notation (ptr + 2): 5
+```

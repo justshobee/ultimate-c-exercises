@@ -1,0 +1,25 @@
+# Exercise 11: String Length
+
+## Description
+Write a function custom_strlen to calculate the length of a string (null-terminated character array) without using the standard C library function strlen(). The function must use a character pointer to traverse the string until it finds the null terminator (\0).
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+char myString[] = "Hello Pointers!";
+```
+
+### Expected Output
+```text
+The string is: "Hello Pointers!"
+Length using custom_strlen: 15
+```

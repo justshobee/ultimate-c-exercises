@@ -1,0 +1,27 @@
+# Exercise 18: Check If an Array Is Already Sorted
+
+## Description
+Create a function in C that takes an array and its size, and returns a boolean value (or 1/0 in C) indicating whether the array is currently sorted in ascending order.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+int sorted_arr[] = {10, 20, 30, 40, 50};
+int unsorted_arr[] = {10, 30, 20, 40, 50};
+int size = 5;
+```
+
+### Expected Output
+```text
+Array 1 is sorted: True
+Array 2 is sorted: False
+```
