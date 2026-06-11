@@ -1,0 +1,28 @@
+# Exercise 8: Delete an Element From Array
+
+## Description
+Write a C program that takes a position from the user and removes the element at that position in an array, shifting the subsequent elements to fill the resulting gap.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+int size = 6;
+int arr[6] = {10, 20, 30, 40, 50, 60};
+int position = 3; // Remove Position 3 (i.e., index 2)
+```
+
+### Expected Output
+```text
+Initial array (size 6): 10, 20, 30, 40, 50, 60
+Array after deleting element at position 3 (index 2):
+10 20 40 50 60
+```
