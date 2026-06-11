@@ -1,8 +1,0 @@
-Exercise 32: String Length Calculation
-
-Practice Problem: Develop a C program that prompts the user to enter a string (a sequence of characters) and then calculates and prints the length of that string without using the built-in strlen() function.
-
-Expected Output:
-
-Enter a string: PYnative
-The length of the string is: 8

@@ -1,9 +1,0 @@
-Exercise 12: Simple Calculator using switch
-
-Practice Problem: Implement a basic calculator that takes two numbers and an operator (+,−,∗,/) as input, and performs the calculation using a switch statement.
-
-Expected Output:
-
-Enter operator (+, -, *, /): *
-Enter two operands: 10 20
-10.00 * 20.00 = 200.00
