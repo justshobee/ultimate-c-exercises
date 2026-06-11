@@ -1,13 +1,13 @@
-# Ultimate C Exercises — 350+ Exercises!
+# Ultimate C Exercises — 375+ Exercises!
 
 <div align="center">
 
 [![GitHub stars](https://img.shields.io/github/stars/justshobee/ultimate-c-exercises?style=for-the-badge)](https://github.com/justshobee/ultimate-c-exercises/stargazers)
-[![Exercises](https://img.shields.io/badge/Exercises-350%2B-brightgreen?style=for-the-badge)](#)
+[![Exercises](https://img.shields.io/badge/Exercises-378-brightgreen?style=for-the-badge)](#)
 
-**A comprehensive collection of 350+ C programming exercises designed to solidify fundamental concepts through hands-on practice.**
+**A comprehensive collection of 378 C programming exercises designed to solidify fundamental concepts through hands-on practice.**
 
-*Perfect for beginners and anyone looking to master C programming from basics to advanced pointers!*
+*Perfect for beginners and anyone looking to master C programming from basics to advanced pointers, file handling, and intermediate systems programming!*
 
 </div>
 
@@ -17,7 +17,7 @@
 
 Welcome to **Ultimate C Exercises**! This repository is your go-to resource for learning and practicing the C programming language. Whether you're a complete beginner or looking to refresh your skills, you'll find carefully structured exercises that progressively build your understanding of core C concepts.
 
-This collection covers everything from basic syntax to pointers, providing hands-on practice for each fundamental pillar of C programming.
+This collection covers everything from basic syntax to pointers, structs, unions, file handling, and intermediate system-level topics, providing hands-on practice for each fundamental pillar of C programming.
 
 ---
 
@@ -25,10 +25,10 @@ This collection covers everything from basic syntax to pointers, providing hands
 
 * **Structured Learning Path** — Exercises organized by topic with progressive difficulty levels  
 * **Beginner-Friendly** — Clear explanations and examples to help you get started  
-* **Comprehensive Coverage** — Topics range from basics to pointers and data structures  
+* **Comprehensive Coverage** — Topics range from basics to pointers, structs, unions, and file handling  
 * **Hands-on Practice** — Learn by doing with real coding challenges  
 * **Well-Organized** — Easy to navigate through different programming concepts  
-* **Extensive Exercises** — 300+ exercises across 7 major topics
+* **Extensive Exercises** — 378 exercises across 10 major topics
 
 ---
 
@@ -79,26 +79,20 @@ Inside each exercise directory, you'll find `.c` source files. Here's how to com
 
 ```bash
 # Compile the source file
-gcc program_name.c -o program_name
+gcc solution.c -o solution
 
 # Run the compiled executable
-./program_name
-```
-
-**Example:**
-```bash
-gcc hello_world.c -o hello_world
-./hello_world
+./solution
 ```
 
 ### Using Different Compilers
 
 ```bash
 # Using Clang instead of GCC
-clang program_name.c -o program_name
+clang solution.c -o solution
 
 # Compile with warnings enabled (recommended)
-gcc -Wall -Wextra program_name.c -o program_name
+gcc -Wall -Wextra solution.c -o solution
 ```
 
 ---
@@ -113,8 +107,10 @@ ultimate-c-exercises/
 ├── 04_functions/                # Function definition, parameters, return types (25 exercises)
 ├── 05_arrays/                   # 1D arrays, 2D arrays, array operations (40 exercises)
 ├── 06_strings/                  # String manipulation, character arrays, functions (30 exercises)
-├── 07_pointers/                 # Pointers basics, dereferencing, arrays of pointers (60+ exercises)
-├── 08_structs_unions/           # Structs, unions, nested structures, typedef (45 exercises)
+├── 07_pointers/                 # Pointers basics, dereferencing, arrays of pointers (99 exercises)
+├── 08_structs_unions/           # Structs, unions, nested structures, typedef (22 exercises)
+├── 09_file_handling/            # File I/O, text/binary files, error checks (21 exercises)
+├── 10_intermediate/             # Preprocessors, command arguments, bitwise operations (44 exercises)
 └── README.md                    # You are here!
 ```
 
@@ -122,7 +118,7 @@ ultimate-c-exercises/
 
 ## Course Outline & Learning Path
 
-### 1. C Basics (`01_c_basics/`)
+### 1. C Basics ([01_c_basics/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/01_c_basics))
 **48 Exercises** | *Duration: 1-2 weeks*
 
 Start your C journey here! Learn fundamental concepts like program structure, printing output, accepting input, and working with operators.
@@ -139,7 +135,7 @@ Start your C journey here! Learn fundamental concepts like program structure, pr
 
 ---
 
-### 2. Variables & Data Types (`02_variables_data_types/`)
+### 2. Variables & Data Types ([02_variables_data_types/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/02_variables_data_types))
 **21 Exercises** | *Duration: 1 week*
 
 Understand how to store and manage data in your programs. Learn about different data types and how to use them effectively.
@@ -155,7 +151,7 @@ Understand how to store and manage data in your programs. Learn about different 
 
 ---
 
-### 3. Loops (`03_loops/`)
+### 3. Loops ([03_loops/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/03_loops))
 **28 Exercises** | *Duration: 1-2 weeks*
 
 Master iteration concepts to repeat code blocks efficiently. This is essential for working with arrays and processing data.
@@ -172,7 +168,7 @@ Master iteration concepts to repeat code blocks efficiently. This is essential f
 
 ---
 
-### 4. Functions (`04_functions/`)
+### 4. Functions ([04_functions/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/04_functions))
 **25 Exercises** | *Duration: 1-2 weeks*
 
 Learn to write reusable, organized code by mastering functions. Functions are building blocks of larger programs.
@@ -188,7 +184,7 @@ Learn to write reusable, organized code by mastering functions. Functions are bu
 
 ---
 
-### 5. Arrays (`05_arrays/`)
+### 5. Arrays ([05_arrays/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/05_arrays))
 **40 Exercises** | *Duration: 2-3 weeks*
 
 Work with collections of data using arrays. Learn both single and multi-dimensional arrays.
@@ -204,7 +200,7 @@ Work with collections of data using arrays. Learn both single and multi-dimensio
 
 ---
 
-### 6. Strings (`06_strings/`)
+### 6. Strings ([06_strings/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/06_strings))
 **30 Exercises** | *Duration: 2 weeks*
 
 Master string handling—one of the most important skills in C programming!
@@ -220,8 +216,8 @@ Master string handling—one of the most important skills in C programming!
 
 ---
 
-### 7. Pointers (`07_pointers/`)
-**60+ Exercises** | *Duration: 3-4 weeks*
+### 7. Pointers ([07_pointers/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/07_pointers))
+**99 Exercises** | *Duration: 3-4 weeks*
 
 Pointers are what make C powerful! This advanced topic opens doors to dynamic memory, complex data structures, and more.
 
@@ -238,8 +234,8 @@ Pointers are what make C powerful! This advanced topic opens doors to dynamic me
 
 ---
 
-### 8. Structs & Unions (`08_structs_unions/`)
-**45 Exercises** | *Duration: 2-3 weeks*
+### 8. Structs & Unions ([08_structs_unions/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/08_structs_unions))
+**22 Exercises** | *Duration: 2 weeks*
 
 Learn to create custom data types and organize related data. Master structures and unions for building complex data models.
 
@@ -251,10 +247,40 @@ Learn to create custom data types and organize related data. Master structures a
 - Pointers to structures
 - Unions and their differences from structs
 - `typedef` for custom types
-- Structure padding and memory alignment
-- Practical applications: linked lists preparation
 
 **Best For:** Building complex data types and preparing for advanced data structures
+
+---
+
+### 9. File Handling ([09_file_handling/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/09_file_handling))
+**21 Exercises** | *Duration: 2 weeks*
+
+Learn how to persist data beyond program runtime by reading and writing files.
+
+**Topics Covered:**
+- File opening modes (`r`, `w`, `a`, `rb`, `wb`)
+- Reading and writing text files (`fprintf`, `fscanf`, `fgets`, `fputs`)
+- Working with binary files (`fread`, `fwrite`)
+- EOF checks and error checking (`perror`, `feof`)
+- Position markers inside files (`fseek`, `ftell`, `rewind`)
+
+**Best For:** Saving application state and working with files
+
+---
+
+### 10. Intermediate Programming & Macros ([10_intermediate/](file:///home/shobee/Documents/Sky%20is%20not%20the%20limit/My%20Repo%20in%20github/ultimate-c-exercises/10_intermediate))
+**44 Exercises** | *Duration: 2-3 weeks*
+
+Take your skills further with multi-file project setups, preprocessors, command line arguments, and bitwise manipulation.
+
+**Topics Covered:**
+- Preprocessor directives (`#define`, `#ifdef`, `#ifndef`)
+- Command line arguments (`argc`, `argv`)
+- Multi-file compilation and custom headers (`.h` files)
+- Bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`)
+- Typedefs, enumerations (`enum`), and advanced control logic
+
+**Best For:** Mastering production-ready system configurations in C
 
 ---
 
@@ -346,7 +372,6 @@ We welcome contributions! If you have:
 
 ---
 
-
 ## Acknowledgments
 
 - Inspired by numerous online C programming tutorials and courses
@@ -375,8 +400,10 @@ Keep track of your progress! Here's a template:
 - [ ] 04_functions (all 25 exercises)
 - [ ] 05_arrays (all 40 exercises)
 - [ ] 06_strings (all 30 exercises)
-- [ ] 07_pointers (all 60+ exercises)
-- [ ] 08_structs_unions (all 45 exercises)
+- [ ] 07_pointers (all 99 exercises)
+- [ ] 08_structs_unions (all 22 exercises)
+- [ ] 09_file_handling (all 21 exercises)
+- [ ] 10_intermediate (all 44 exercises)
 
 ---
 
@@ -389,4 +416,3 @@ Keep track of your progress! Here's a template:
 By justshobee
 
 </div>
-
