@@ -1,0 +1,20 @@
+# Exercise 43: Modifying Value via Pointer
+
+## Description
+Declare an integer variable data with an initial value of 100. Declare a pointer data_ptr that points to data. Use the pointer only to change the value of data to 250. Print the final value of data.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Expected Output
+```text
+Initial value of data: 100
+New value of data (modified via pointer): 250
+```

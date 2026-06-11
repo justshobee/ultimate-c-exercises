@@ -1,0 +1,23 @@
+# Exercise 2: Calculate Sum
+
+## Description
+Practice Problems: Write a C program that prompts the user to enter two separate integers,
+calculates their sum, and then prints the result.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+- `scanf`
+
+## Examples
+### Expected Output
+```text
+Enter the first integer: 10
+Enter the second integer: 20
+The sum of 10 and 20 is: 30
+```

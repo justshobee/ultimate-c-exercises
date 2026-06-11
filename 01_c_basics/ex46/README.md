@@ -1,0 +1,29 @@
+# Exercise 46: Compare Pointers
+
+## Description
+Declare two integer variables, A and B, and initialize them. Declare two pointers, ptrA and ptrB, pointing to A and B, respectively. Write a program to compare the values pointed to by ptrA and ptrB, and print which variable holds the larger value.
+
+## Assignment File
+- `solution.c`
+
+## Expected Files
+- `solution.c`
+
+## Allowed Functions
+- `printf`
+
+## Examples
+### Given
+```c
+int A = 75;
+int B = 92;
+```
+
+### Expected Output
+```text
+Variable A holds: 75
+Variable B holds: 92
+B is larger (Value: 92).
+
+(Address of A is higher than address of B)
+```
