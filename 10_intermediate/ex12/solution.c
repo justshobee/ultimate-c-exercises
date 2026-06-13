@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://github.com/justshobee>           / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/06/13 11:21:38 by shobeedev               shobee4ever      */
-/*   Updated: 2026/06/13 11:38:31 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/06/13 11:40:24 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 /*
@@ -21,6 +21,7 @@
 
 int		main(void)
 {
+	// Seeds the random number generator
 	srand((unsigned)time(NULL));
 
 	int		dice;
@@ -32,6 +33,7 @@ int		main(void)
 	i = 0;
 	while (i < dice)
 	{
+	    // rand() % 6 produces a random number between 0-5, add 1 to shift to 1-6
 		roll = (rand() % 6) + 1;
 		printf("Dice %d : %d\n",i + 1, roll);
 		i++;
