@@ -6,11 +6,9 @@
 /*      <https://github.com/justshobee>        // makes it yours.             */
 /*                                                                            */
 /*   Created: 2026/08/19 09:56:21 by shobeedev // learn the why,              */
-/*   Updated: 2026/08/19 09:56:27 by shobeedev // not only the how.           */
+/*   Updated: 2026/08/19 10:00:26 by shobeedev // not only the how.           */
 /*                                                                            */
 /* ************************************************************************** */
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "list.h"
