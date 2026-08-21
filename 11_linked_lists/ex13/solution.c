@@ -6,7 +6,7 @@
 /*      <https://github.com/justshobee>        // makes it yours.             */
 /*                                                                            */
 /*   Created: 2026/08/21 09:30:37 by shobeedev // learn the why,              */
-/*   Updated: 2026/08/21 10:55:01 by shobeedev // not only the how.           */
+/*   Updated: 2026/08/21 11:58:34 by shobeedev // not only the how.           */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,34 +65,35 @@ node	*free_lst(node *head)
 	return (head);
 }
 
-node	*merge_lst(node *l1, node *l2)
+node	*merge_lst(node *head1, node *head2)
 {
-	node	*head;
-	node	*next1;
-	node	*next2;
+	node	dummy;//to store first node
+	node	*tail;//to know the last node
 
-	if (!l1)
-		return (l2);
-	if (!l2)
-		return (l1);
-	if (l1->next == NULL)
+	if (!head1)
+		return (head2);
+	if (!head2)
+		return (head1);
+	tail = &dummy;
+	while (head1 && head2)
 	{
-		l1->next = l2;
-		return (l1);
+		if (head1->data < head2->data)
+		{
+			tail->next = head1;
+			head1 = head1->next;
+		}
+		else
+		{
+			tail->next = head2;
+			head2 = head2->next;
+		}
+		tail = tail->next;
 	}
-	head = l1;
-	while (l1 != NULL && l2 != NULL)
-	{
-		next1 = l1->next;
-		l1->next = l2;
-
-		next2 = l2->next;
-		l2->next = next1;
-
-		l1 = next1;
-		l2 = next2;
-	}
-	return (head);
+	if (head1 != NULL)
+		tail->next = head1;
+	else
+		tail->next = head2;
+	return (dummy->next);
 }
 
 int		main(void)
@@ -107,16 +108,16 @@ int		main(void)
 	
 	//list 1 :
 	insert_node(&l1, 1);
-	insert_node(&l1, 3);
+	insert_node(&l1, 2);
 	insert_node(&l1, 5);
-	insert_node(&l1, 7);
-	insert_node(&l1, 9);
+	insert_node(&l1, 6);
+	insert_node(&l1, 10);
 	print_lst(l1);
 
 	//list 2 :
-	insert_node(&l2, 2);
+	insert_node(&l2, 0);
+	insert_node(&l2, 3);
 	insert_node(&l2, 4);
-	insert_node(&l2, 6);
 	insert_node(&l2, 8);
 	print_lst(l2);
 
