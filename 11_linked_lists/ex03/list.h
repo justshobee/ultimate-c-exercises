@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                           ____    _____    */
-/*   list.h                                                 |___ \  |___ /    */
-/*                                                            __) |   |_ \    */
-/*   By: shobeedev <https://github.com/justshobee>           / __/   ___) |   */
-/*                                                          |_____| |____/    */
-/*   Created: 2026/08/18 11:46:15 by shobeedev               shobee4ever      */
-/*   Updated: 2026/08/18 11:48:04 by shobeedev            tfaaty fi l3oolaa   */
+/*   list.h                                    // anyone can copy the code    */
+/*                                                                            */
+/*   By: shobeedev                             // but only understanding      */
+/*      <https://github.com/justshobee>        // makes it yours.             */
+/*                                                                            */
+/*   Created: 2026/08/22 08:59:55 by shobeedev // learn the why,              */
+/*   Updated: 2026/08/22 08:59:58 by shobeedev // not only the how.           */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #ifndef LIST_H
 # define LIST_H

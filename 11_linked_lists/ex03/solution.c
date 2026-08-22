@@ -1,14 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                           ____    _____    */
-/*   solution.c                                             |___ \  |___ /    */
-/*                                                            __) |   |_ \    */
-/*   By: shobeedev <https://github.com/justshobee>           / __/   ___) |   */
-/*                                                          |_____| |____/    */
-/*   Created: 2026/08/18 11:45:20 by shobeedev               shobee4ever      */
-/*   Updated: 2026/08/18 12:10:53 by shobeedev            tfaaty fi l3oolaa   */
+/*   solution.c                                // anyone can copy the code    */
+/*                                                                            */
+/*   By: shobeedev                             // but only understanding      */
+/*      <https://github.com/justshobee>        // makes it yours.             */
+/*                                                                            */
+/*   Created: 2026/08/22 08:58:50 by shobeedev // learn the why,              */
+/*   Updated: 2026/08/22 08:58:52 by shobeedev // not only the how.           */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include <stdio.h>
 #include <stdlib.h>

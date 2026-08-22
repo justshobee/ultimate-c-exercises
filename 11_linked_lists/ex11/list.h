@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                           ____    _____    */
-/*   list.h                                                 |___ \  |___ /    */
-/*                                                            __) |   |_ \    */
-/*   By: shobeedev <https://github.com/justshobee>           / __/   ___) |   */
-/*                                                          |_____| |____/    */
-/*   Created: 2026/08/18 11:46:15 by shobeedev               shobee4ever      */
-/*   Updated: 2026/08/18 11:48:04 by shobeedev            tfaaty fi l3oolaa   */
+/*   list.h                                    // anyone can copy the code    */
+/*                                                                            */
+/*   By: shobeedev                             // but only understanding      */
+/*      <https://github.com/justshobee>        // makes it yours.             */
+/*                                                                            */
+/*   Created: 2026/08/22 09:01:27 by shobeedev // learn the why,              */
+/*   Updated: 2026/08/22 09:01:29 by shobeedev // not only the how.           */
 /*                                                                            */
 /* ************************************************************************** */
 
