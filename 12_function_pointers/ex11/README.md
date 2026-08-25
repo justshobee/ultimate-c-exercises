@@ -1,4 +1,4 @@
-## 01. ft_map
+## 11. ft_map
  
 * **Description:** Create the function `ft_map`, which applies a given function to all elements of an integer array (in order) and returns a **new** array containing all the return values.
 * **Allowed functions:** `malloc`

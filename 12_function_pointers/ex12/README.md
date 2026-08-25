@@ -1,4 +1,4 @@
-## 02. ft_any
+## 12. ft_any
  
 * **Description:** Create a function `ft_any`, which returns `1` if, when passed to the function `f`, at least one element of the array returns a value other than `0`. Otherwise, it returns `0`. Applied in the order of the array. The array is delimited by a null pointer (`NULL`-terminated array of strings).
 * **Allowed functions:** None

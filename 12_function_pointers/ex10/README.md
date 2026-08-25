@@ -1,4 +1,4 @@
-## 00. ft_foreach
+## 10. ft_foreach
  
 * **Description:** Create the function `ft_foreach`, which applies a given function to all elements of an integer array. The function must be applied in the order of the array. Example usage: `ft_foreach(tab, 1337, &ft_putnbr);` to display all the integers in an array.
 * **Allowed functions:** None

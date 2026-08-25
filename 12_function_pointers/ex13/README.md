@@ -1,4 +1,4 @@
-## 03. ft_count_if
+## 13. ft_count_if
  
 * **Description:** Create a function `ft_count_if`, which returns the number of elements in the array for which the function `f` does **not** return `0`. Applied in the order of the array.
 * **Allowed functions:** None
