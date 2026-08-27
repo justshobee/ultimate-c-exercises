@@ -6,7 +6,7 @@
 /*      <https://github.com/justshobee>        // makes it yours.             */
 /*                                                                            */
 /*   Created: 2026/08/27 13:08:51 by shobeedev // learn the why,              */
-/*   Updated: 2026/08/27 16:23:15 by shobeedev // not only the how.           */
+/*   Updated: 2026/08/27 16:29:49 by shobeedev // not only the how.           */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int		ft_strcmp(void *s1, void *s2)
 	return (*(char*)s1 - (*(char*)s2));
 }
 
-t_list*		ft_list_foreach_if(t_list *head,  void *data_ref, int (*cmp)(void *, void *))
+t_list*		ft_list_find(t_list *head,  void *data_ref, int (*cmp)(void *, void *))
 {
 	while (head)
 	{
@@ -54,7 +54,6 @@ void	ft_push_front(t_list **head, void *data)
 	ptr->next = tmp;
 }
 
-
 int		main(int size, char **str)
 {
 	if (size > 1)
@@ -72,7 +71,7 @@ int		main(int size, char **str)
 			ft_push_front(&head, str[i]);
 			i++;
 		}
-		ptr = ft_list_foreach_if(head, "test", ft_strcmp);
+		ptr = ft_list_find(head, "test", ft_strcmp);
 		if (ptr != NULL)
 			printf("%s\n", (char *)ptr->data);
 		else
